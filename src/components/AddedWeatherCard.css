@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+}
+.addedWeatherCard{
+    display: flex;
+    height: 100%;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 60vw;
+    margin-top: 15px;
+    /* min-height: 40vh; */
+    padding: 15px;
+    background-color: whitesmoke;
+    /* background-color: lightcoral; */
+}
+
+.addedweathercard__container > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addedweathercard__image{
+    width: 11vw;
+    min-height: 20vh;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.addedweathercard__degree{
+    font-weight: 500;
+    font-size: 4rem;
+}
+.addedweathercard__description{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+}
+._icon{
+    color: lightgreen;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+._icon +p{
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.addedweathercard__p{
+    font-weight: 400;
+}
+
+.btn__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    /* height: 25vh; */
+    background-color: whitesmoke;
+}
+
+.btn{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    background: #fff;
+}
+.btn:hover{
+    transform: scale(1.07);
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+
+/* Dark Themes */
+
+body.dark .container{
+    background: linear-gradient(14deg, #132743,#FF6187);
+    color: #fff;
+    border-radius: 9px;
+}
+
+body.dark .btn__container{
+    background-color: transparent;
+    /* background: linear-gradient(14deg, #132743,#FF6187); */
+    color: #fff;
+    border-radius: 9px;
+}

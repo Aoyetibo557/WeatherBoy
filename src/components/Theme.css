@@ -1,0 +1,52 @@
+body{
+   
+    background-color: #fff ;
+    transition: background 0.2s linear;
+}
+
+.label{
+    background-color: rgba(236, 38, 236, 0.281);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    height: 2px;
+    width: 30px;
+    padding: 5px;
+    position: relative;
+}
+.ball{
+    background-color: rgb(204, 200, 200);
+    position: absolute;
+    top:  -5px;
+    left: 0px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.checkbox{
+    /* opacity: 0;
+    position: absolute; */
+    display: none;
+}
+
+.checkbox:checked + .label .ball{
+    background-color: purple;
+    transform: translateX(24px);
+    transition: transform 0.5s linear;
+}
+
+.theme__p{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+
+/* Dark Theme CSS */
+body.dark{
+    /* background-color: #626aaf; */
+    /* background-color: #FF6187; */
+    background: linear-gradient(#FF6187, #132743);
+}
