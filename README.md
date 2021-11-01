@@ -2,6 +2,34 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Images/Screenshot
+
+### Light Mode
+
+![img2](https://user-images.githubusercontent.com/54692909/139733073-2afced8e-1d7b-4666-867d-405eba4e4f92.JPG)
+
+![img3](https://user-images.githubusercontent.com/54692909/139733205-e304f5cd-8006-4074-9e1b-fe4592564319.JPG)
+
+![img4](https://user-images.githubusercontent.com/54692909/139733313-1004851f-dab3-4595-a648-5c9aca73f6ea.JPG)
+
+![img1](https://user-images.githubusercontent.com/54692909/139733377-b0604a44-b8d0-4d90-8580-d3ec1e04a7a2.JPG)
+
+![img11](https://user-images.githubusercontent.com/54692909/139733438-b3984838-ebf4-4734-b059-355a42abeaa4.JPG)
+
+![img10](https://user-images.githubusercontent.com/54692909/139733523-5894a62f-7891-46aa-ad62-99fc237fe2c3.JPG)
+
+### Dark Mode
+
+![img7](https://user-images.githubusercontent.com/54692909/139733618-427ad2dd-de9f-411d-bc1a-620724360cf4.JPG)
+
+![img8](https://user-images.githubusercontent.com/54692909/139733673-f6fa87bd-6bec-4ae7-80cc-ea68854ce170.JPG)
+
+![img5](https://user-images.githubusercontent.com/54692909/139733753-e3632d3b-9a2c-4dfc-a029-5b79ec4f5178.JPG)
+
+![img6](https://user-images.githubusercontent.com/54692909/139733814-5c13d3eb-28d9-47e7-ba8a-82c97d036ca6.JPG)
+
+![img12](https://user-images.githubusercontent.com/54692909/139733874-48332870-6ba6-4f9b-b02a-9ac0bf04d51b.JPG)
+
 ## Available Scripts
 
 In the project directory, you can run:
